@@ -19,5 +19,6 @@ mvn exec:java -Dexec.mainClass="com.app.SimpleKafkaProducer"
 mvn exec:java -Dexec.mainClass="com.app.SimpleKafkaConsumer"
 mvn exec:java -Dexec.mainClass="com.app.KafkaController"
 mvn exec:java -Dexec.mainClass="com.app.MatchMakingService" -Dexec.args="TEST2"
+mvn exec:java -Dexec.mainClass="com.app.JobSchedular"
 mvn spring-boot:run
 ```

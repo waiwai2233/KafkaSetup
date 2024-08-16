@@ -1,7 +1,9 @@
 com/app/SimpleKafkaProducer.class
 com/app/KafkaApplication.class
 com/app/SimpleKafkaConsumer.class
+com/app/EventNotificationJob.class
 com/app/KafkaController.class
 com/app/KafkaConsumerUtil.class
+com/app/JobSchedular.class
 com/app/KafkaProducerUtil.class
 com/app/MatchMakingService.class
