@@ -44,6 +44,7 @@ public class JobSchedular {
                 // Define the job and tie it to our EventNotificationJob class
                 JobDetail job = JobBuilder.newJob(EventNotificationJob.class)
                         .withIdentity("eventNotificationJob" + i, "group1")
+                        .requestRecovery(true)  // Recover the running Jobs in case of crash
                         .usingJobData("topicName", topicNames.get(i)) 
                         .build();
 
